@@ -174,5 +174,116 @@ margin: auto;
  opacity: 1; 
 }
 
+/* Facilities */
 
+.facilities{
+ width:80% ; 
+ margin: auto;
+text-align: center;
+padding-top: 100px;  
+}
+.facilities-col{
+ flex-basis: 31%;  
+ border-radius: 10px; 
+ margin-bottom: 5%;
+ text-align: left;
+}
+.facilities-col img{
+ width: 100%;   
+ border-radius: 10px;
+}
+.facilities-col p{
+padding: 0;
+}
+.facilities-col h3{
+ margin-top: 16px;   
+ margin-bottom: 15px;
+ text-align: left;
+}
 
+/* <!-- -------testimonial------------ */
+.testimonials{
+width:80% ; 
+margin: auto;
+text-align: center;
+padding-top: 100px;   
+}
+.testimonials-col{
+ flex-basis: 44%;  
+ border-radius: 10px; 
+ margin-bottom: 5%;
+ text-align: left;
+ background: #fff3f3;
+ padding: 25px;
+ cursor: pointer;
+ display: flex;
+}
+.testimonials-col img{
+ height: 40px;
+ margin-left: 5px;
+ margin-right: 30px;
+border-radius: 50%;
+}
+.testimonials-col h3{
+margin-top: 15px;
+text-align: left;
+}
+.testimonials-col p{
+padding: 0;   
+}
+.testimonials-col .fa-solid{
+color: rgb(255, 29, 4);
+}
+
+/* ------ cta ------- */
+
+.cta{
+width: 80%;
+margin: 100px auto;
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
+background-position: center;
+background-size: cover;
+border-radius: 10px;
+text-align: center;
+padding: 100px;
+}
+.cta h1{
+color: white;
+margin-bottom: 40px;
+padding: 0;
+}
+
+/* futar */
+
+.footer{
+ width: 80%;
+ text-align: center; 
+ padding: 30px 0; 
+ margin: 0 auto; 
+}
+.footer h4{
+margin-bottom: 25px;
+margin-top: 20px;
+font-weight: 600;    
+}
+.icons .fa-brands{
+margin: 0 13px;
+cursor: pointer;
+padding: 18px 0;
+font-size: 25px;
+}
+.icons .fa-facebook{
+    color: rgb(0, 149, 255);
+    }
+.icons .fa-twitter{
+    color: rgb(0, 0, 0);
+    }
+.icons .fa-instagram{
+    color: rgb(255, 0, 0);
+    }
+.icons .fa-linkedin{
+    color: rgb(0, 102, 255);
+    }
+.fa-regular{
+color: red;
+}

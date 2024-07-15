@@ -37,3 +37,14 @@ padding: 30px;
      flex-direction: column;   
     }
 }
+
+/* testimonials */
+@media(max-width:700px){
+    .testimonials-col img{
+    margin-left: 0;
+    margin-right:15px ;    
+    } 
+    .cta h1{
+    font-size: 24px;    
+    }  
+}
